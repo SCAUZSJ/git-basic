@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        width: 100%;
+    }
+
+    .paper {
+
+        height: 900px;
+        width: 640px;
+        border: 1px solid #333;
+        margin: 0 auto;
+        padding: 30px;
+
+    }
+
+    .demo {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        border-left: 10px solid rgb(41, 172, 233);
+        padding-left: 20px;
+    }
+
+    .top {
+
+        border-bottom: 2px solid #333;
+    }
+
+    .info {
+        float: left;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .info p:nth-of-type(1) {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .info p:nth-of-type(2) {
+        font-size: 20px;
+    }
+
+    .top img {
+        float: right;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    .content {}
+
+    .block {
+        padding: 10px 0;
+        border-bottom: 2px solid #333;
+    }
+   
+    .block>p {
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(95, 93, 93);
+    }
+
+    .baseInfo {
+        font-size: 14px;
+    }
+
+
+
+    .baseInfo ul {
+        display: inline;
+        white-space: wrap;
+        padding: 0;
+    }
+
+    .baseInfo ul li {
+        padding: 4px 20px;
+        display: inline-block;
+        white-space: wrap;
+
+    }
+
+    .baseInfo ul li label {
+        margin-right: 12px;
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+    }
+
+    .baseInfo ul li span {
+        width: 120px;
+        display: inline-block;
+    }
+
+    .work {
+        font-size: 14px;
+    }
+
+    .work p {
+        margin: 6px 0;
+        line-height: 18px;
+    }
+
+    .work ul li label {
+        display: inline-block;
+        width: 80px;
+    }
+
+    .skill {}
+</style>
+
+<body>
+    <div class="paper">
+        <div class="demo">
+            <div class="top">
+                <div class="info">
+                    <p>Milo Z</p>
+                    <p>Software Engineer</p>
+                </div>
+
+                <img src="img.jpg" height="110px;" style="float: right;">
+            </div>
+            <div class="content">
+                <div class="block baseInfo">
+                    <p>基本信息</p>
+                    <ul>
+                        <li>
+                            <label>年龄：</label>
+                            <span>22岁</span>
+                        </li>
+                        <li>
+                            <label>性别：</label>
+                            <span>男</span>
+                        </li>
+                        <li>
+                            <label>政治面貌：</label>
+                            <span>党员</span>
+                        </li>
+                        <li>
+                            <label>毕业院校：</label>
+                            <span>华南农业大学</span>
+                        </li>
+                        <li>
+                            <label>手机号码：</label>
+                            <span>13565375273</span>
+                        </li>
+                        <li>
+                            <label>邮箱：</label>
+                            <span>uhwjhdw@163.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block work">
+                    <p>工作经验</p>
+                    <ul>
+                        <li>
+                            <p>工作时间： 2018.1 - 2018.7</p>
+                            <p>公司名称： HTML简历科技有限公司</p>
+                            <p>工作描述：</p>
+                            <p>
+                                1、接待：接待各类人员（政府领导、航空公司、其他机场、客户企业等）的来访，负责进行会议的组织、工作安排、陪同参观介绍等；<br>
+                                2、党务：担任公司党支部支委会委员，负责组织各类党务会议、活动，负责各类党建、精神文明、党风廉政台账的记录和整理；<br>
+                                3、PPT：负责机场各类汇报、分析、分享会议PPT的制作。
+                            </p>
+                        </li>
+                        <li>
+                            <p>工作时间： 2019.1 - 至今</p>
+                            <p>公司名称： HTML简历科技有限公司</p>
+                            <p>工作描述：</p>
+                            <p>
+                                1，文档管理项目的跟进及项目人员管理。<br>
+                                2，交付对接。<br>
+                                3，项目物料管理及核对。<br>
+                                4，项目流程的归纳整理及项目人员培训。<br>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block skill">
+                    <p>技术/能力</p>
+                    <div class="skill-pane">
+                        <ul>
+                            <li>熟练掌握Java基础</li>
+                            <li>熟练使用spring、springMVC、Mybatis等主流框架</li>
+                            <li>熟练使用数据库，有一定的优化能力</li>
+                            <li>熟悉前端开发，了解前后端交互技巧</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block" style="border:none;" >
+                    <p>自我评价</p>
+                    <div style="margin-top:5px;">
+                        具备基本你的职业素养，能团结他人，善于沟通，喜欢钻研问题，有良好的独自解决问题的能力。
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
